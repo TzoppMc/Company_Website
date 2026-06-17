@@ -1,1 +1,223 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PT PANI · Pani Insurance Brokers</title>
+  <!-- Google Fonts (Sans-serif modern) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- AOS Animate On Scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- Custom CSS (style.css) -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="font-['Inter',sans-serif] bg-white text-[#0b1a33] antialiased">
 
+  <!-- ===== NAVBAR ===== -->
+  <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-200/50 shadow-sm">
+    <div class="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
+      <!-- Logo -->
+      <div class="flex items-center gap-2">
+        <span class="text-2xl font-extrabold tracking-tight text-[#0b1a33]">PANI</span>
+        <span class="text-xs font-medium bg-[#f5b81b] text-[#0b1a33] px-2 py-0.5 rounded-full">BROKER</span>
+      </div>
+      <!-- Menu desktop -->
+      <div class="hidden md:flex items-center gap-8 text-sm font-semibold text-[#1e2f4a]">
+        <a href="#home" class="hover:text-[#f5b81b] transition">Home</a>
+        <a href="#about" class="hover:text-[#f5b81b] transition">About</a>
+        <a href="#services" class="hover:text-[#f5b81b] transition">Services</a>
+        <a href="#portfolio" class="hover:text-[#f5b81b] transition">Portfolio</a>
+        <a href="#contact" class="hover:text-[#f5b81b] transition">Contact</a>
+      </div>
+      <!-- CTA -->
+      <div>
+        <a href="#contact" class="bg-[#f5b81b] hover:bg-[#dba415] text-[#0b1a33] px-5 py-2 rounded-full text-sm font-bold shadow-md transition-all hover:scale-105 inline-block">Hubungi Kami</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="pt-12 pb-20 px-6 bg-gradient-to-br from-[#fafcff] to-[#eef3fa]">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div data-aos="fade-up" data-aos-duration="800">
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight text-[#0b1a33]">
+          Your Trusted Partner in <br /><span class="text-[#f5b81b]">Safeguarding</span> What Matters Most
+        </h1>
+        <p class="text-gray-600 text-lg mt-4 max-w-lg leading-relaxed">
+          Kami adalah pialang asuransi independen yang bekerja untuk kepentingan Anda. 
+          Dengan jaringan luas dan pengalaman 20+ tahun, kami menyederhanakan perlindungan asuransi.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-4">
+          <a href="#contact" class="bg-[#f5b81b] hover:bg-[#dba415] text-[#0b1a33] px-8 py-3 rounded-full text-base font-bold shadow-lg transition-all hover:scale-105">Konsultasi Gratis</a>
+          <a href="#services" class="border-2 border-[#0b1a33] hover:bg-[#0b1a33] hover:text-white px-8 py-3 rounded-full text-base font-semibold transition-all">Layanan Kami</a>
+        </div>
+        <!-- logo OJK & APPARINDO (placeholder) -->
+        <div class="flex items-center gap-6 mt-10 opacity-70">
+          <div class="bg-white/60 px-4 py-2 rounded-xl shadow-sm border border-gray-200/50 text-xs font-bold text-[#0b1a33]">OJK REG. KEP-29/NB.1/2019</div>
+          <div class="bg-white/60 px-4 py-2 rounded-xl shadow-sm border border-gray-200/50 text-xs font-bold text-[#0b1a33]">APPARINDO 254-2019</div>
+        </div>
+      </div>
+      <div data-aos="fade-left" data-aos-duration="900" class="flex justify-center">
+        <div class="w-full max-w-sm bg-[#0b1a33] rounded-3xl p-8 shadow-2xl text-white">
+          <p class="text-sm font-medium text-[#f5b81b] uppercase tracking-wider">#Insurtech</p>
+          <p class="text-2xl font-bold mt-2">PANI</p>
+          <p class="text-sm text-gray-300 mt-1">Pialang Asuransi Nasional</p>
+          <div class="mt-6 grid grid-cols-2 gap-4">
+            <div><span class="text-[#f5b81b] font-bold">2019</span><p class="text-xs text-gray-400">Berdiri</p></div>
+            <div><span class="text-[#f5b81b] font-bold">20+</span><p class="text-xs text-gray-400">Tahun pengalaman</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="py-20 px-6 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-[#0b1a33] text-center" data-aos="fade-up">Tentang <span class="text-[#f5b81b]">PANI</span></h2>
+      <p class="text-center text-gray-500 max-w-2xl mx-auto mt-2" data-aos="fade-up" data-aos-delay="100">Pialang asuransi terpercaya dengan lisensi resmi OJK dan anggota APPARINDO.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+        <div class="bg-[#f8faff] p-6 rounded-2xl shadow-sm border border-gray-100" data-aos="flip-up" data-aos-delay="100">
+          <div class="text-4xl mb-2">📅</div>
+          <h3 class="font-bold text-xl">Berdiri 2019</h3>
+          <p class="text-gray-600 text-sm mt-1">PT. Pialang Asuransi Nasional Indonesia Jaya</p>
+        </div>
+        <div class="bg-[#f8faff] p-6 rounded-2xl shadow-sm border border-gray-100" data-aos="flip-up" data-aos-delay="200">
+          <div class="text-4xl mb-2">✅</div>
+          <h3 class="font-bold text-xl">OJK KEP-29/NB.1/2019</h3>
+          <p class="text-gray-600 text-sm mt-1">Resmi terdaftar di Otoritas Jasa Keuangan</p>
+        </div>
+        <div class="bg-[#f8faff] p-6 rounded-2xl shadow-sm border border-gray-100" data-aos="flip-up" data-aos-delay="300">
+          <div class="text-4xl mb-2">🤝</div>
+          <h3 class="font-bold text-xl">APPARINDO 254-2019</h3>
+          <p class="text-gray-600 text-sm mt-1">Anggota Asosiasi Pialang Asuransi & Reasuransi Indonesia</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATISTICS (counter) ===== -->
+  <section class="py-16 px-6 bg-[#0b1a33] text-white">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      <div data-aos="fade-up" data-aos-delay="50">
+        <div class="text-4xl md:text-5xl font-extrabold text-[#f5b81b]"><span class="counter" data-target="2400000">0</span>+</div>
+        <p class="text-sm uppercase tracking-wider mt-1 opacity-80">Polis Diterbitkan</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="150">
+        <div class="text-4xl md:text-5xl font-extrabold text-[#f5b81b]"><span class="counter" data-target="300">0</span>+</div>
+        <p class="text-sm uppercase tracking-wider mt-1 opacity-80">Perusahaan Terdaftar</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="250">
+        <div class="text-4xl md:text-5xl font-extrabold text-[#f5b81b]"><span class="counter" data-target="9000">0</span>+</div>
+        <p class="text-sm uppercase tracking-wider mt-1 opacity-80">Klaim Ditangani</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CORE PRODUCTS ===== -->
+  <section id="services" class="py-20 px-6 bg-[#f9fbfe]">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-[#0b1a33] text-center" data-aos="fade-up">Produk <span class="text-[#f5b81b]">Inti</span></h2>
+      <p class="text-center text-gray-500 max-w-xl mx-auto mt-2" data-aos="fade-up" data-aos-delay="50">Solusi asuransi komprehensif untuk aset, karyawan, dan tanggung jawab.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+        <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border border-gray-100" data-aos="zoom-in" data-aos-delay="100">
+          <div class="text-3xl mb-3">🏢</div>
+          <h3 class="text-xl font-bold">Asset Insurance</h3>
+          <ul class="text-sm text-gray-600 mt-3 space-y-1 list-disc list-inside">
+            <li>Property, Motor, Machinery</li>
+            <li>Heavy Equipment, Construction</li>
+            <li>Marine Hull & Cargo</li>
+            <li>Cyber, Bonding, Aviation</li>
+          </ul>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border border-gray-100" data-aos="zoom-in" data-aos-delay="200">
+          <div class="text-3xl mb-3">👥</div>
+          <h3 class="text-xl font-bold">Employee Benefits</h3>
+          <ul class="text-sm text-gray-600 mt-3 space-y-1 list-disc list-inside">
+            <li>Group Health & Life</li>
+            <li>Critical Illness, Personal Accident</li>
+            <li>Pension, Credit Life, Travel</li>
+            <li>Admin Service Only (ASO)</li>
+          </ul>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border border-gray-100" data-aos="zoom-in" data-aos-delay="300">
+          <div class="text-3xl mb-3">⚖️</div>
+          <h3 class="text-xl font-bold">Liability</h3>
+          <ul class="text-sm text-gray-600 mt-3 space-y-1 list-disc list-inside">
+            <li>General, Product, Public</li>
+            <li>Freight Forwarders</li>
+            <li>Professional Indemnity</li>
+            <li>D&O, Workmen Compensation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED PORTFOLIO ===== -->
+  <section id="portfolio" class="py-20 px-6 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-[#0b1a33] text-center" data-aos="fade-up">Portfolio <span class="text-[#f5b81b]">Unggulan</span></h2>
+      <p class="text-center text-gray-500 max-w-xl mx-auto mt-2" data-aos="fade-up" data-aos-delay="50">Proyek-proyek besar yang kami tangani dengan solusi asuransi khusus.</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+        <div class="bg-[#f2f6fe] p-6 rounded-2xl shadow-sm border border-gray-100" data-aos="flip-left" data-aos-delay="100"><span class="text-3xl">💧</span><h4 class="font-bold mt-2">Mini Hydro PLTM</h4><p class="text-sm text-gray-600">Petro Hidro Optima · Garut</p></div>
+        <div class="bg-[#f2f6fe] p-6 rounded-2xl shadow-sm border border-gray-100" data-aos="flip-left" data-aos-delay="200"><span class="text-3xl">⚙️</span><h4 class="font-bold mt-2">Pipeline Engineering</h4><p class="text-sm text-gray-600">EMP Bentu · BUMN</p></div>
+        <div class="bg-[#f2f6fe] p-6 rounded-2xl shadow-sm border border-gray-100" data-aos="flip-left" data-aos-delay="300"><span class="text-3xl">🚢</span><h4 class="font-bold mt-2">Hull & Machinery</h4><p class="text-sm text-gray-600">PELNI Group · Kapal Kayu</p></div>
+        <div class="bg-[#f2f6fe] p-6 rounded-2xl shadow-sm border border-gray-100" data-aos="flip-left" data-aos-delay="400"><span class="text-3xl">📋</span><h4 class="font-bold mt-2">Digital Medical Record</h4><p class="text-sm text-gray-600">ENI Indonesia</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CLIENTS & PARTNERS (infinite carousel) ===== -->
+  <section class="py-12 bg-[#f2f5fa] overflow-hidden border-y border-gray-200/60">
+    <div class="max-w-7xl mx-auto">
+      <p class="text-center text-sm font-semibold uppercase tracking-wider text-gray-500 mb-4" data-aos="fade-up">Mitra & Klien Terpercaya</p>
+      <div class="carousel-wrapper">
+        <div class="carousel-track">
+          <span>Bukaka</span><span>Pelni</span><span>Astra</span><span>Tugu</span><span>Zurich</span><span>Allianz</span><span>Mandiri</span><span>BNI</span><span>BRI</span><span>Telkom</span>
+          <!-- duplikat untuk seamless loop -->
+          <span>Bukaka</span><span>Pelni</span><span>Astra</span><span>Tugu</span><span>Zurich</span><span>Allianz</span><span>Mandiri</span><span>BNI</span><span>BRI</span><span>Telkom</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT & FOOTER ===== -->
+  <footer id="contact" class="bg-[#0b1a33] text-white pt-16 pb-6 px-6">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div data-aos="fade-right">
+        <h3 class="text-2xl font-extrabold">PANI</h3>
+        <p class="text-gray-400 text-sm mt-2">Pialang Asuransi Nasional Indonesia Jaya</p>
+        <p class="text-sm text-gray-300 mt-4"><span class="text-[#f5b81b]">📍</span> Menara Hijau Lt. 9, Suite 900<br />Jl. MT Haryono Kav. 33, Jakarta 12770</p>
+        <p class="text-sm text-gray-300 mt-2"><span class="text-[#f5b81b]">📞</span> +6221 7986115</p>
+        <p class="text-sm text-gray-300 mt-1"><span class="text-[#f5b81b]">✉️</span> contact@pani.co</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="100">
+        <h4 class="font-bold text-lg">Jam Operasional</h4>
+        <p class="text-sm text-gray-300 mt-2">Senin – Jumat<br />08.00 – 17.00 WIB</p>
+        <div class="flex gap-4 mt-6">
+          <a href="#" class="bg-[#f5b81b]/20 p-2 rounded-full hover:bg-[#f5b81b]/40 transition">🔗</a>
+          <a href="#" class="bg-[#f5b81b]/20 p-2 rounded-full hover:bg-[#f5b81b]/40 transition">📱</a>
+        </div>
+      </div>
+      <div data-aos="fade-left" data-aos-delay="200">
+        <h4 class="font-bold text-lg">Tentang Kami</h4>
+        <ul class="text-sm text-gray-300 space-y-1 mt-2">
+          <li>OJK KEP-29/NB.1/2019</li>
+          <li>APPARINDO 254-2019</li>
+          <li>20+ tahun pengalaman</li>
+        </ul>
+        <p class="text-xs text-gray-500 mt-6">© 2026 PANI. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS: AOS + custom script.js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
