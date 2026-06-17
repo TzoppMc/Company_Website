@@ -1,1 +1,58 @@
+/* ===== CSS CUSTOM PANI ===== */
+/* Infinite Carousel Logo */
+.carousel-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
 
+.carousel-track {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  animation: scrollCarousel 18s linear infinite;
+  width: max-content;
+}
+
+.carousel-track span {
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  color: #1e2f4a;
+  background: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 40px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  border: 1px solid #e9edf4;
+  white-space: nowrap;
+}
+
+@keyframes scrollCarousel {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Hover effect for carousel items (optional) */
+.carousel-track span:hover {
+  background: #f5b81b;
+  color: #0b1a33;
+  border-color: #f5b81b;
+  transition: all 0.2s ease;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Tailwind custom base (optional) */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
